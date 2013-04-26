@@ -1,0 +1,384 @@
+@import url(http://fonts.googleapis.com/css?family=Holtwood+One+SC|Dosis);
+body{
+	text-align:center;
+	font-size:110%;
+	background:left top repeat #fff url(../img/background.gif);
+}
+
+a{
+	text-decoration:underline;
+	color:#999999;
+}
+	a:hover{ text-decoration:none; }
+
+h1{
+	font-size:360%;
+	text-align:center;
+	padding:20px 0 20px 0;
+	font-family:'Holtwood One SC', Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+
+	h1 small{
+		font-weight:normal;
+		font-size:30%;
+	}
+
+	h1 a{
+		color:#444444;
+		text-decoration:none;
+	}
+
+h3, h2{
+	font-size:240%;
+	margin:20px 0 10px 0;
+	font-weight:normal;	
+	clear:both;
+}
+	h3 a, h2 a{ color:#444; text-decoration:none; }
+	h3 a:hover, h2 a:hover{ color:#999999; }
+
+h2{ text-align:left; text-align:center;  }
+
+	h2:first-child{
+		font-size:200%;
+	}
+	
+	h2:first-child a:first-child{
+		display: inline-block;
+		font-size: 70%;
+		padding-top: 5px;
+		vertical-align: top;
+		font-weight: normal;
+	}
+	
+	h2.intro{
+		font-size:240%;
+		text-align:center;
+		line-height:1.5em;
+		font-weight:normal;
+		margin:50px 20px 30px 20px;	
+	}
+
+h4{
+    clear: both;
+    color: #F13024;
+    font-size: 80%;
+    font-weight: bold;
+    margin: 10px 0 15px 0;
+	text-align:center;
+}
+
+h3{
+	font-size:120%;
+	margin:30px 0 10px 0;
+	font-weight:normal;	
+	clear:both;
+}
+
+p{
+	margin:10px 0 10px 0;
+	line-height:1.5em;
+}
+
+pre{
+	padding:10px;
+	background:#333333;
+	color:#ffffff;
+	font-family:"Courier New", Courier, monospace;
+	font-size:70%;
+	line-height:1.5em;
+	margin:10px 0 20px 0;
+	overflow: auto;
+}
+
+code{
+	font-family:"Courier New", Courier, monospace;
+	font-size:80%;
+	background-color:#f4f4f4;
+	display:inline-block;
+	padding:2px 5px 2px 5px;
+	text-shadow:0 1px 1px #ffffff;
+	border-bottom:1px solid #999999;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+	code a:hover{ color:#444444; }
+	code a{
+		text-decoration:none;
+	}
+
+ul, ol{
+	margin:10px 0 10px 25px;
+	padding:0 0 0 0;
+}
+
+	ol li,
+	ul li{ margin:3px 0 3px 0; padding:0 0 0 5px; }
+
+	ul li{
+		list-style-type:circle;
+	}
+	
+	ol li{
+		list-style-type:decimal;	
+	}
+
+	ol li.header,
+	ul li.header{ list-style:none; }
+
+div#wrapper{
+	margin:0 auto 0 auto;
+	text-align:left;	
+	width:800px;
+}
+
+	ul#navigation{
+		text-align:center;
+		padding:0 0 20px 0;
+		margin:0 0 20px 0;
+		border-bottom:1px solid #d4d4d4;
+	}
+	body.home ul#navigation{ margin-bottom:0; }
+
+	ul#navigation li{
+		display:inline-block;
+		margin:0 27px;
+		font-size:140%;
+		padding:0;
+		list-style:none;
+	}
+
+	ul#navigation li a{
+		text-decoration:none;
+		display:inline-block;
+		padding:5px 5px 5px 5px;
+	}
+
+	ul#navigation li a:hover,
+	ul#navigation li.selected a{
+		background-color:#f4f4f4;
+		text-shadow:0 1px 1px #cccccc;
+	}
+
+div.content-left, div.content-right{
+	float:left;
+	width:400px;
+	margin-bottom:20px;
+}
+
+div.left-navigation{
+	padding-top:32px;
+	float:left;
+	width:210px;
+}
+
+	div.left-navigation h3{
+		list-style:none;
+		font-size:90%;
+	}
+
+	div.left-navigation ul li{
+		list-style:none;
+		font-size:80%;
+	}
+
+	div.left-navigation ul li code{
+		max-width: 176px;
+	}
+
+	div.left-navigation ul{
+		margin:10px 0 0 10px;
+	}
+
+div.right-content{
+	float:left;
+	width:590px;
+}
+
+div.image{
+	background:#F4F4F4;
+	margin:0 0 20px 0;
+}
+
+div.image-right{
+	float:right;
+	margin-left:20px;
+}
+
+	div.image label{
+		display:block;
+		font-size:70%;
+		padding:3px 6px 3px 6px;
+	}
+
+	div.image img{
+		width:200px;	
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		display:block;
+	}
+
+ul.whos-using{
+	text-align:center;
+}
+
+	ul.whos-using li{
+		list-style:none;
+		display:inline-block;
+		text-indent:-9999em;
+		background-position:center center;
+		background-repeat:no-repeat;
+		margin:20px;
+	}
+	
+	ul.whos-using li.quick-foxes{
+		width:216px;
+		height:96px;
+		background-image:url(../img/using/quick-foxes.png);
+	}
+
+	ul.whos-using li.allure-introductions{
+		width:200px;
+		height:96px;
+		background-image:url(../img/using/allure-introductions.png);
+	}
+
+	ul.whos-using li.elite-resorts-of-asia-pacific{
+		width:140px;
+		height:96px;
+		background-image:url(../img/using/elite-resorts-of-asia-pacific.png);
+	}
+
+	ul.whos-using li.pure-plumbing{
+		width:236px;
+		height:97px;
+		background-image:url(../img/using/pure-plumbing.png);
+	}
+
+	ul.whos-using li.sharemyplaylists{
+		width:220px;
+		height:97px;
+		background-image:url(../img/using/sharemyplaylists.png);
+	}
+
+	ul.whos-using li.firstline{
+		width:186px;
+		height:49px;
+		background-image:url(../img/using/firstline.png);
+		display:none;
+	}
+
+	ul.whos-using li.retweet{
+		width:236px;
+		height:49px;
+		background-image:url(../img/using/retweet.png);
+		display:none;
+	}
+
+	ul.whos-using li.hypnoticwheels{
+		width:239px;
+		height:93px;
+		background-image:url(../img/using/hypnoticwheels.png);
+		display:none;
+	}
+
+	ul.whos-using li.venueposter{
+		width:239px;
+		height:80px;
+		background-image:url(../img/using/venueposter.png);
+		display:none;
+	}
+
+p#footer{
+	border-top:1px solid #d4d4d4;
+	padding:10px 0 40px 0;
+	margin-top:20px;
+	text-align:center;
+	font-size:80%;
+	clear:both;
+}
+	p#footer a:hover{ text-decoration:none; }
+
+form.standard{
+	
+}
+
+	form.standard p.error{
+		font-size:80%;
+		background-color:#ec3023;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#ec3023), to(#c4281d));
+		background-image: -moz-linear-gradient(top,  #ec3023,  #c4281d);
+		color:#ffffff;
+		padding:3px 5px 3px 5px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		display:inline-block;
+	}
+
+	form.standard div.form-field-text{
+		float:left;
+		padding:17px 0 0 0;
+	}
+
+	form.standard div.field-email{
+		padding-right:20px;
+	}
+
+	form.standard div.form-field-textarea{
+		clear:left;
+		padding:22px 0 0 0;
+	}
+
+	form.standard label{
+		font-weight:bold;
+		margin:0 0 5px 0;
+		display:block;
+	}
+	
+	form.standard input.input-text,
+	form.standard textarea.input-textarea{
+		display:block;
+		border:1px #999999 solid;
+		padding:5px 6px;
+		width:376px;
+		background:#fff;
+		box-shadow:inset 0 5px 10px #e4e4e4;
+		font-size:90%;
+	}
+
+	form.standard input.input-text:focus,
+	form.standard textarea.input-textarea:focus{
+		border-color:#444444;
+	}
+
+	form.standard textarea.input-textarea{
+		width:786px;
+		height:150px;
+		min-width:786px;
+		min-height:150px;
+		max-width:786px;
+	}
+	
+	form.standard div.form-field-submit{
+		padding:20px 0 0 0;
+	}
+
+	form.standard div.form-field-submit input{
+		background-color:#555555;
+		color:#ffffff;
+		padding:4px 5px;
+		text-transform:uppercase;
+		font-weight:bold;
+		font-size:90%;
+		float:right;
+	}
+
+	form.standard div.form-field-submit input:hover{
+		background-color:#222;
+		cursor:pointer;
+	}
